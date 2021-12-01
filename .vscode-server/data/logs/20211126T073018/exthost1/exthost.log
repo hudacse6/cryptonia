@@ -1,0 +1,8 @@
+[2021-11-26 07:31:17.149] [exthost] [info] Extension host with pid 32546 started
+[2021-11-26 07:31:18.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-26 07:31:18.251] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-26 07:31:19.468] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-26 07:31:20.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-26 07:31:20.563] [exthost] [info] Eager extensions activated
+[2021-11-26 07:31:45.560] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-11-26 07:31:46.566] [exthost] [info] Extension host with pid 32546 exiting with code 0

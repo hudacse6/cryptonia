@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+sitemap: https://www.digitalocean.com/sitemap.xml
+sitemap: https://www.digitalocean.com/community/main_sitemap.xml.gz
+sitemap: https://www.digitalocean.com/community/questions_sitemap.xml.gz
+

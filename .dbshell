@@ -1,0 +1,30 @@
+show dbs
+show dbs
+show dbs
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+show collections
+db.images.find().pretty()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.deleteMany({})
+db.images.find()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.find()
+db.images.find().pretty()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.find().pretty()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.find().pretty()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.find().pretty()
+db.images.deleteMany({})
+db.images.find().pretty()
+show dbs()
+show dbs
+use yP5NQOMukTbox8Y0mVlj
+db.images.find().pretty()

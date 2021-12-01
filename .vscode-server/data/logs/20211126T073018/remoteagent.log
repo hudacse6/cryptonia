@@ -1,0 +1,34 @@
+[2021-11-26 07:30:18.813] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-11-26 07:30:18.813] [remoteagent] [info] Extension host agent started.
+[2021-11-26 07:30:23.331] [remoteagent] [info] [127.0.0.1][ea39a211][ManagementConnection] New connection established.
+[2021-11-26 07:30:25.215] [remoteagent] [info] [127.0.0.1][2443c564][ExtensionHostConnection] New connection established.
+[2021-11-26 07:30:25.220] [remoteagent] [info] [127.0.0.1][2443c564][ExtensionHostConnection] <32546> Launched Extension Host Process.
+[2021-11-26 07:31:02.717] [remoteagent] [info] [127.0.0.1][ea39a211][ManagementConnection] The client has reconnected.
+[2021-11-26 07:31:04.662] [remoteagent] [info] [127.0.0.1][2443c564][ExtensionHostConnection] The client has reconnected.
+[2021-11-26 07:31:45.569] [remoteagent] [info] [127.0.0.1][ea39a211][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-11-26 07:31:46.572] [remoteagent] [info] [127.0.0.1][2443c564][ExtensionHostConnection] <32546> Extension Host Process exited with code: 0, signal: null.
+[2021-11-26 07:31:46.573] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-11-26 07:31:58.602] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-11-26 07:31:58.602] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-11-26 07:32:01.520] [remoteagent] [info] [127.0.0.1][c92aeec7][ManagementConnection] New connection established.
+[2021-11-26 07:32:07.943] [remoteagent] [info] [127.0.0.1][842fe4be][ExtensionHostConnection] New connection established.
+[2021-11-26 07:32:07.954] [remoteagent] [info] [127.0.0.1][842fe4be][ExtensionHostConnection] <33292> Launched Extension Host Process.
+[2021-11-26 07:32:09.855] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-11-26 07:33:19.665] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-11-26 07:33:19.665] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-11-26 07:33:22.070] [remoteagent] [info] [127.0.0.1][c92aeec7][ManagementConnection] The client has reconnected.
+[2021-11-26 07:33:23.057] [remoteagent] [info] [127.0.0.1][842fe4be][ExtensionHostConnection] The client has reconnected.
+[2021-11-26 07:38:19.667] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-11-26 07:46:28.449] [remoteagent] [info] [127.0.0.1][c92aeec7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-11-26 07:46:29.479] [remoteagent] [info] [127.0.0.1][842fe4be][ExtensionHostConnection] <33292> Extension Host Process exited with code: 0, signal: null.
+[2021-11-26 07:46:29.480] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-11-26 07:51:29.481] [remoteagent] [info] Last EH closed, shutting down

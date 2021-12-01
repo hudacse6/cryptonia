@@ -1,0 +1,425 @@
+2021-10-23T20:10:31: PM2 log: ===============================================================================
+2021-10-23T20:10:31: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-10-23T20:10:31: PM2 log: Time                 : Sat Oct 23 2021 20:10:31 GMT+0000 (Coordinated Universal Time)
+2021-10-23T20:10:31: PM2 log: PM2 version          : 5.1.2
+2021-10-23T20:10:31: PM2 log: Node.js version      : 16.10.0
+2021-10-23T20:10:31: PM2 log: Current arch         : x64
+2021-10-23T20:10:31: PM2 log: PM2 home             : /root/.pm2
+2021-10-23T20:10:31: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-10-23T20:10:31: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-10-23T20:10:31: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-10-23T20:10:31: PM2 log: Application log path : /root/.pm2/logs
+2021-10-23T20:10:31: PM2 log: Worker Interval      : 30000
+2021-10-23T20:10:31: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-10-23T20:10:31: PM2 log: Concurrent actions   : 2
+2021-10-23T20:10:31: PM2 log: SIGTERM timeout      : 1600
+2021-10-23T20:10:31: PM2 log: ===============================================================================
+2021-10-23T20:10:31: PM2 log: App [mongod:0] starting in -fork mode-
+2021-10-23T20:10:31: PM2 log: App [mongod:0] online
+2021-10-23T20:19:46: PM2 log: App [index:1] starting in -fork mode-
+2021-10-23T20:19:46: PM2 log: App [index:1] online
+2021-10-23T21:15:34: PM2 log: Stopping app:index id:1
+2021-10-23T21:15:34: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-10-23T21:15:34: PM2 log: pid=115924 msg=process killed
+2021-10-23T21:22:51: PM2 log: App [index:1] starting in -fork mode-
+2021-10-23T21:22:51: PM2 log: App [index:1] online
+2021-10-23T21:26:29: PM2 log: Stopping app:index id:1
+2021-10-23T21:26:29: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-10-23T21:26:29: PM2 log: pid=116848 msg=process killed
+2021-10-23T21:37:58: PM2 log: App [index:1] starting in -fork mode-
+2021-10-23T21:37:58: PM2 log: App [index:1] online
+2021-10-23T21:46:42: PM2 log: Stopping app:index id:1
+2021-10-23T21:46:42: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-10-23T21:46:42: PM2 log: pid=117093 msg=process killed
+2021-10-23T21:54:51: PM2 log: App [index:1] starting in -fork mode-
+2021-10-23T21:54:51: PM2 log: App [index:1] online
+2021-10-25T13:04:47: PM2 log: Stopping app:index id:1
+2021-10-25T13:04:47: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-10-25T13:04:47: PM2 log: pid=117492 msg=process killed
+2021-10-25T13:06:39: PM2 log: App [index:1] starting in -fork mode-
+2021-10-25T13:06:39: PM2 log: App [index:1] online
+2021-11-18T00:59:50: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2021-11-18T00:59:50: PM2 log: Deleting process 0
+2021-11-18T00:59:50: PM2 log: Stopping app:mongod id:0
+2021-11-18T00:59:50: PM2 log: App [index:1] exited with code [0] via signal [SIGHUP]
+2021-11-18T00:59:50: PM2 log: App [index:1] starting in -fork mode-
+2021-11-18T00:59:50: PM2 log: App [index:1] online
+2021-11-18T00:59:50: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-18T00:59:50: PM2 log: pid=115664 msg=process killed
+2021-11-18T00:59:50: PM2 log: Deleting process 1
+2021-11-18T00:59:50: PM2 log: Stopping app:index id:1
+2021-11-18T00:59:50: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-18T00:59:50: PM2 log: pid=329773 msg=process killed
+2021-11-18T00:59:50: PM2 log: Exited peacefully
+2021-11-18T00:59:52: PM2 log: ===============================================================================
+2021-11-18T00:59:52: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-18T00:59:52: PM2 log: Time                 : Thu Nov 18 2021 00:59:52 GMT+0000 (Coordinated Universal Time)
+2021-11-18T00:59:52: PM2 log: PM2 version          : 5.1.2
+2021-11-18T00:59:52: PM2 log: Node.js version      : 16.10.0
+2021-11-18T00:59:52: PM2 log: Current arch         : x64
+2021-11-18T00:59:52: PM2 log: PM2 home             : /root/.pm2
+2021-11-18T00:59:52: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-18T00:59:52: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-18T00:59:52: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-18T00:59:52: PM2 log: Application log path : /root/.pm2/logs
+2021-11-18T00:59:52: PM2 log: Worker Interval      : 30000
+2021-11-18T00:59:52: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-18T00:59:52: PM2 log: Concurrent actions   : 2
+2021-11-18T00:59:52: PM2 log: SIGTERM timeout      : 1600
+2021-11-18T00:59:52: PM2 log: ===============================================================================
+2021-11-18T00:59:52: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-18T00:59:52: PM2 log: App [index:1] starting in -fork mode-
+2021-11-18T00:59:52: PM2 log: App [mongod:0] online
+2021-11-18T00:59:52: PM2 log: App [index:1] online
+2021-11-19T18:28:49: PM2 log: Stopping app:mongod id:0
+2021-11-19T18:28:49: PM2 log: Stopping app:index id:1
+2021-11-19T18:28:49: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-19T18:28:49: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-19T18:28:49: PM2 log: pid=706 msg=process killed
+2021-11-19T18:28:49: PM2 log: pid=707 msg=process killed
+2021-11-19T18:28:49: PM2 log: PM2 successfully stopped
+2021-11-19T18:28:51: PM2 log: ===============================================================================
+2021-11-19T18:28:51: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-19T18:28:51: PM2 log: Time                 : Fri Nov 19 2021 18:28:51 GMT+0000 (Coordinated Universal Time)
+2021-11-19T18:28:51: PM2 log: PM2 version          : 5.1.2
+2021-11-19T18:28:51: PM2 log: Node.js version      : 16.10.0
+2021-11-19T18:28:51: PM2 log: Current arch         : x64
+2021-11-19T18:28:51: PM2 log: PM2 home             : /root/.pm2
+2021-11-19T18:28:51: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-19T18:28:51: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-19T18:28:51: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-19T18:28:51: PM2 log: Application log path : /root/.pm2/logs
+2021-11-19T18:28:51: PM2 log: Worker Interval      : 30000
+2021-11-19T18:28:51: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-19T18:28:51: PM2 log: Concurrent actions   : 2
+2021-11-19T18:28:51: PM2 log: SIGTERM timeout      : 1600
+2021-11-19T18:28:51: PM2 log: ===============================================================================
+2021-11-19T18:28:51: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-19T18:28:51: PM2 log: App [index:1] starting in -fork mode-
+2021-11-19T18:28:51: PM2 log: App [mongod:0] online
+2021-11-19T18:28:51: PM2 log: App [index:1] online
+2021-11-29T08:23:56: PM2 log: Stopping app:mongod id:0
+2021-11-29T08:23:56: PM2 log: Stopping app:index id:1
+2021-11-29T08:23:56: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-29T08:23:56: PM2 log: pid=668 msg=failed to kill - retrying in 100ms
+2021-11-29T08:23:56: PM2 log: pid=669 msg=process killed
+2021-11-29T08:23:56: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-29T08:23:56: PM2 log: pid=668 msg=process killed
+2021-11-29T08:23:56: PM2 log: PM2 successfully stopped
+2021-11-29T08:23:58: PM2 log: ===============================================================================
+2021-11-29T08:23:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-29T08:23:58: PM2 log: Time                 : Mon Nov 29 2021 08:23:58 GMT+0000 (Coordinated Universal Time)
+2021-11-29T08:23:58: PM2 log: PM2 version          : 5.1.2
+2021-11-29T08:23:58: PM2 log: Node.js version      : 16.10.0
+2021-11-29T08:23:58: PM2 log: Current arch         : x64
+2021-11-29T08:23:58: PM2 log: PM2 home             : /root/.pm2
+2021-11-29T08:23:58: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-29T08:23:58: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-29T08:23:58: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-29T08:23:58: PM2 log: Application log path : /root/.pm2/logs
+2021-11-29T08:23:58: PM2 log: Worker Interval      : 30000
+2021-11-29T08:23:58: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-29T08:23:58: PM2 log: Concurrent actions   : 2
+2021-11-29T08:23:58: PM2 log: SIGTERM timeout      : 1600
+2021-11-29T08:23:58: PM2 log: ===============================================================================
+2021-11-29T08:23:58: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-29T08:23:58: PM2 log: App [index:1] starting in -fork mode-
+2021-11-29T08:23:58: PM2 log: App [mongod:0] online
+2021-11-29T08:23:58: PM2 log: App [index:1] online
+2021-11-30T11:55:48: PM2 log: Stopping app:mongod id:0
+2021-11-30T11:55:48: PM2 log: Stopping app:index id:1
+2021-11-30T11:55:48: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T11:55:48: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T11:55:48: PM2 log: pid=717 msg=process killed
+2021-11-30T11:55:48: PM2 log: pid=722 msg=process killed
+2021-11-30T11:55:48: PM2 log: PM2 successfully stopped
+2021-11-30T11:57:10: PM2 log: ===============================================================================
+2021-11-30T11:57:10: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T11:57:10: PM2 log: Time                 : Tue Nov 30 2021 11:57:10 GMT+0000 (Coordinated Universal Time)
+2021-11-30T11:57:10: PM2 log: PM2 version          : 5.1.2
+2021-11-30T11:57:10: PM2 log: Node.js version      : 16.10.0
+2021-11-30T11:57:10: PM2 log: Current arch         : x64
+2021-11-30T11:57:10: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T11:57:10: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T11:57:10: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T11:57:10: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T11:57:10: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T11:57:10: PM2 log: Worker Interval      : 30000
+2021-11-30T11:57:10: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T11:57:10: PM2 log: Concurrent actions   : 2
+2021-11-30T11:57:10: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T11:57:10: PM2 log: ===============================================================================
+2021-11-30T11:57:10: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T11:57:10: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T11:57:10: PM2 log: App [mongod:0] online
+2021-11-30T11:57:10: PM2 log: App [index:1] online
+2021-11-30T11:59:10: PM2 log: Stopping app:mongod id:0
+2021-11-30T11:59:10: PM2 log: Stopping app:index id:1
+2021-11-30T11:59:10: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T11:59:11: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T11:59:11: PM2 log: pid=656 msg=process killed
+2021-11-30T11:59:11: PM2 log: pid=657 msg=process killed
+2021-11-30T11:59:11: PM2 log: PM2 successfully stopped
+2021-11-30T11:59:57: PM2 log: ===============================================================================
+2021-11-30T11:59:57: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T11:59:57: PM2 log: Time                 : Tue Nov 30 2021 11:59:57 GMT+0000 (Coordinated Universal Time)
+2021-11-30T11:59:57: PM2 log: PM2 version          : 5.1.2
+2021-11-30T11:59:57: PM2 log: Node.js version      : 16.10.0
+2021-11-30T11:59:57: PM2 log: Current arch         : x64
+2021-11-30T11:59:57: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T11:59:57: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T11:59:57: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T11:59:57: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T11:59:57: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T11:59:57: PM2 log: Worker Interval      : 30000
+2021-11-30T11:59:57: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T11:59:57: PM2 log: Concurrent actions   : 2
+2021-11-30T11:59:57: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T11:59:57: PM2 log: ===============================================================================
+2021-11-30T11:59:57: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T11:59:57: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T11:59:57: PM2 log: App [mongod:0] online
+2021-11-30T11:59:57: PM2 log: App [index:1] online
+2021-11-30T12:17:26: PM2 log: Stopping app:mongod id:0
+2021-11-30T12:17:26: PM2 log: Stopping app:index id:1
+2021-11-30T12:17:26: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T12:17:26: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T12:17:26: PM2 log: pid=659 msg=process killed
+2021-11-30T12:17:26: PM2 log: pid=660 msg=process killed
+2021-11-30T12:17:26: PM2 log: PM2 successfully stopped
+2021-11-30T12:17:27: PM2 log: ===============================================================================
+2021-11-30T12:17:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T12:17:27: PM2 log: Time                 : Tue Nov 30 2021 12:17:27 GMT+0000 (Coordinated Universal Time)
+2021-11-30T12:17:27: PM2 log: PM2 version          : 5.1.2
+2021-11-30T12:17:27: PM2 log: Node.js version      : 16.10.0
+2021-11-30T12:17:27: PM2 log: Current arch         : x64
+2021-11-30T12:17:27: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T12:17:27: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T12:17:27: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T12:17:27: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T12:17:27: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T12:17:27: PM2 log: Worker Interval      : 30000
+2021-11-30T12:17:27: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T12:17:27: PM2 log: Concurrent actions   : 2
+2021-11-30T12:17:27: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T12:17:27: PM2 log: ===============================================================================
+2021-11-30T12:17:27: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T12:17:27: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T12:17:27: PM2 log: App [mongod:0] online
+2021-11-30T12:17:27: PM2 log: App [index:1] online
+2021-11-30T12:34:26: PM2 log: Stopping app:mongod id:0
+2021-11-30T12:34:26: PM2 log: Stopping app:index id:1
+2021-11-30T12:34:26: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T12:34:26: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T12:34:26: PM2 log: pid=726 msg=process killed
+2021-11-30T12:34:26: PM2 log: pid=727 msg=process killed
+2021-11-30T12:34:26: PM2 log: PM2 successfully stopped
+2021-11-30T12:35:13: PM2 log: ===============================================================================
+2021-11-30T12:35:13: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T12:35:13: PM2 log: Time                 : Tue Nov 30 2021 12:35:13 GMT+0000 (Coordinated Universal Time)
+2021-11-30T12:35:13: PM2 log: PM2 version          : 5.1.2
+2021-11-30T12:35:13: PM2 log: Node.js version      : 16.10.0
+2021-11-30T12:35:13: PM2 log: Current arch         : x64
+2021-11-30T12:35:13: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T12:35:13: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T12:35:13: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T12:35:13: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T12:35:13: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T12:35:13: PM2 log: Worker Interval      : 30000
+2021-11-30T12:35:13: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T12:35:13: PM2 log: Concurrent actions   : 2
+2021-11-30T12:35:13: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T12:35:13: PM2 log: ===============================================================================
+2021-11-30T12:35:13: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T12:35:13: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T12:35:13: PM2 log: App [mongod:0] online
+2021-11-30T12:35:13: PM2 log: App [index:1] online
+2021-11-30T12:36:35: PM2 log: Stopping app:mongod id:0
+2021-11-30T12:36:35: PM2 log: Stopping app:index id:1
+2021-11-30T12:36:35: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T12:36:35: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T12:36:35: PM2 log: pid=652 msg=process killed
+2021-11-30T12:36:35: PM2 log: pid=653 msg=process killed
+2021-11-30T12:36:35: PM2 log: PM2 successfully stopped
+2021-11-30T13:02:04: PM2 log: ===============================================================================
+2021-11-30T13:02:04: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:02:04: PM2 log: Time                 : Tue Nov 30 2021 13:02:04 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:02:04: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:02:04: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:02:04: PM2 log: Current arch         : x64
+2021-11-30T13:02:04: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:02:04: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:02:04: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:02:04: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:02:04: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:02:04: PM2 log: Worker Interval      : 30000
+2021-11-30T13:02:04: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:02:04: PM2 log: Concurrent actions   : 2
+2021-11-30T13:02:04: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:02:04: PM2 log: ===============================================================================
+2021-11-30T13:02:04: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:02:04: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:02:04: PM2 log: App [mongod:0] online
+2021-11-30T13:02:04: PM2 log: App [index:1] online
+2021-11-30T13:10:53: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:10:53: PM2 log: Stopping app:index id:1
+2021-11-30T13:10:53: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:10:53: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:10:53: PM2 log: pid=659 msg=process killed
+2021-11-30T13:10:53: PM2 log: pid=660 msg=process killed
+2021-11-30T13:10:53: PM2 log: PM2 successfully stopped
+2021-11-30T13:11:46: PM2 log: ===============================================================================
+2021-11-30T13:11:46: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:11:46: PM2 log: Time                 : Tue Nov 30 2021 13:11:46 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:11:46: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:11:46: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:11:46: PM2 log: Current arch         : x64
+2021-11-30T13:11:46: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:11:46: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:11:46: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:11:46: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:11:46: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:11:46: PM2 log: Worker Interval      : 30000
+2021-11-30T13:11:46: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:11:46: PM2 log: Concurrent actions   : 2
+2021-11-30T13:11:46: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:11:46: PM2 log: ===============================================================================
+2021-11-30T13:11:46: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:11:46: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:11:46: PM2 log: App [mongod:0] online
+2021-11-30T13:11:46: PM2 log: App [index:1] online
+2021-11-30T13:13:20: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:13:20: PM2 log: Stopping app:index id:1
+2021-11-30T13:13:20: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:13:20: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:13:20: PM2 log: pid=661 msg=process killed
+2021-11-30T13:13:20: PM2 log: pid=662 msg=process killed
+2021-11-30T13:13:20: PM2 log: PM2 successfully stopped
+2021-11-30T13:14:05: PM2 log: ===============================================================================
+2021-11-30T13:14:05: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:14:05: PM2 log: Time                 : Tue Nov 30 2021 13:14:05 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:14:05: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:14:05: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:14:05: PM2 log: Current arch         : x64
+2021-11-30T13:14:05: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:14:05: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:14:05: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:14:05: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:14:05: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:14:05: PM2 log: Worker Interval      : 30000
+2021-11-30T13:14:05: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:14:05: PM2 log: Concurrent actions   : 2
+2021-11-30T13:14:05: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:14:05: PM2 log: ===============================================================================
+2021-11-30T13:14:05: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:14:05: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:14:05: PM2 log: App [mongod:0] online
+2021-11-30T13:14:05: PM2 log: App [index:1] online
+2021-11-30T13:29:28: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:29:28: PM2 log: Stopping app:index id:1
+2021-11-30T13:29:28: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:29:28: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:29:28: PM2 log: pid=656 msg=process killed
+2021-11-30T13:29:28: PM2 log: pid=657 msg=process killed
+2021-11-30T13:29:29: PM2 log: PM2 successfully stopped
+2021-11-30T13:29:30: PM2 log: ===============================================================================
+2021-11-30T13:29:30: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:29:30: PM2 log: Time                 : Tue Nov 30 2021 13:29:30 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:29:30: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:29:30: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:29:30: PM2 log: Current arch         : x64
+2021-11-30T13:29:30: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:29:30: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:29:30: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:29:30: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:29:30: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:29:30: PM2 log: Worker Interval      : 30000
+2021-11-30T13:29:30: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:29:30: PM2 log: Concurrent actions   : 2
+2021-11-30T13:29:30: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:29:30: PM2 log: ===============================================================================
+2021-11-30T13:29:30: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:29:30: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:29:30: PM2 log: App [mongod:0] online
+2021-11-30T13:29:30: PM2 log: App [index:1] online
+2021-11-30T13:35:24: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:35:24: PM2 log: Stopping app:index id:1
+2021-11-30T13:35:24: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:35:24: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:35:24: PM2 log: pid=659 msg=process killed
+2021-11-30T13:35:24: PM2 log: pid=660 msg=process killed
+2021-11-30T13:35:24: PM2 log: PM2 successfully stopped
+2021-11-30T13:36:07: PM2 log: ===============================================================================
+2021-11-30T13:36:07: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:36:07: PM2 log: Time                 : Tue Nov 30 2021 13:36:07 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:36:07: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:36:07: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:36:07: PM2 log: Current arch         : x64
+2021-11-30T13:36:07: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:36:07: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:36:07: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:36:07: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:36:07: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:36:07: PM2 log: Worker Interval      : 30000
+2021-11-30T13:36:07: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:36:07: PM2 log: Concurrent actions   : 2
+2021-11-30T13:36:07: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:36:07: PM2 log: ===============================================================================
+2021-11-30T13:36:07: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:36:07: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:36:07: PM2 log: App [mongod:0] online
+2021-11-30T13:36:07: PM2 log: App [index:1] online
+2021-11-30T13:36:46: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:36:46: PM2 log: Stopping app:index id:1
+2021-11-30T13:36:46: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:36:46: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:36:46: PM2 log: pid=660 msg=process killed
+2021-11-30T13:36:46: PM2 log: pid=661 msg=process killed
+2021-11-30T13:36:46: PM2 log: PM2 successfully stopped
+2021-11-30T13:37:54: PM2 log: ===============================================================================
+2021-11-30T13:37:54: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:37:54: PM2 log: Time                 : Tue Nov 30 2021 13:37:54 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:37:54: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:37:54: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:37:54: PM2 log: Current arch         : x64
+2021-11-30T13:37:54: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:37:54: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:37:54: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:37:54: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:37:54: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:37:54: PM2 log: Worker Interval      : 30000
+2021-11-30T13:37:54: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:37:54: PM2 log: Concurrent actions   : 2
+2021-11-30T13:37:54: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:37:54: PM2 log: ===============================================================================
+2021-11-30T13:37:54: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:37:54: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:37:54: PM2 log: App [mongod:0] online
+2021-11-30T13:37:54: PM2 log: App [index:1] online
+2021-11-30T13:54:08: PM2 log: Stopping app:mongod id:0
+2021-11-30T13:54:08: PM2 log: Stopping app:index id:1
+2021-11-30T13:54:08: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2021-11-30T13:54:08: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+2021-11-30T13:54:08: PM2 log: pid=656 msg=process killed
+2021-11-30T13:54:08: PM2 log: pid=657 msg=process killed
+2021-11-30T13:54:08: PM2 log: PM2 successfully stopped
+2021-11-30T13:54:10: PM2 log: ===============================================================================
+2021-11-30T13:54:10: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2021-11-30T13:54:10: PM2 log: Time                 : Tue Nov 30 2021 13:54:10 GMT+0000 (Coordinated Universal Time)
+2021-11-30T13:54:10: PM2 log: PM2 version          : 5.1.2
+2021-11-30T13:54:10: PM2 log: Node.js version      : 16.10.0
+2021-11-30T13:54:10: PM2 log: Current arch         : x64
+2021-11-30T13:54:10: PM2 log: PM2 home             : /root/.pm2
+2021-11-30T13:54:10: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2021-11-30T13:54:10: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2021-11-30T13:54:10: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2021-11-30T13:54:10: PM2 log: Application log path : /root/.pm2/logs
+2021-11-30T13:54:10: PM2 log: Worker Interval      : 30000
+2021-11-30T13:54:10: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2021-11-30T13:54:10: PM2 log: Concurrent actions   : 2
+2021-11-30T13:54:10: PM2 log: SIGTERM timeout      : 1600
+2021-11-30T13:54:10: PM2 log: ===============================================================================
+2021-11-30T13:54:10: PM2 log: App [mongod:0] starting in -fork mode-
+2021-11-30T13:54:10: PM2 log: App [index:1] starting in -fork mode-
+2021-11-30T13:54:10: PM2 log: App [mongod:0] online
+2021-11-30T13:54:10: PM2 log: App [index:1] online
